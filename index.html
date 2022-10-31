@@ -15,11 +15,11 @@
             <h1>Kalorien-Rechner</h1>
             <form>
                 <label for="height">Körpergröße (cm)</label>
-                <input type="number" id="height" placeholder="50-272 cm" min="50" max="200">
+                <input type="number" id="height" min="50" max="200">
                 <label for="age">Alter</label>
-                <input type="number" id="age" min="0" max="110" placeholder="45">
+                <input type="number" id="age" min="0" max="110">
                 <label for="weight">Körpergewicht (kg)</label>
-                <input type="number" id="weight" placeholder="xxx kg">
+                <input type="number" id="weight">
                 <label for="build">Körperbau <br>
                     <input type="radio" name="maleFemale" id="female" checked="checked">Weiblich <br>
                     <input type="radio" name="maleFemale" id="male">Männlich</label>
@@ -44,13 +44,13 @@
                 </tr>
                 <tr>
                     <td>Grundumsatz</td>
-                    <td id="grundumsatzKcalOutput">1.603</td>
-                    <td id="grundumsatzKJOutput">6.713</td>
+                    <td class="output" id="grundumsatzKcalOutput">?</td>
+                    <td class="output" id="grundumsatzKJOutput">?</td>
                 </tr>
                 <tr>
                     <td>Gesamtumsatz</td>
-                    <td id="gesamtumsatzKcalOutput">2.645</td>
-                    <td id="gesamtumsatzKJOutput">11.076</td>
+                    <td class="output" id="gesamtumsatzKcalOutput">?</td>
+                    <td class="output" id="gesamtumsatzKJOutput">?</td>
                 </tr>
             </table>
             <p>Das Ergebnis des Rechners sollten Sie nur als Orientierungswert ansehen, da es verschiedene
